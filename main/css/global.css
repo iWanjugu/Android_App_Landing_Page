@@ -37,17 +37,12 @@ html, body {
 
 .all_content {
     width: 100%;
+    min-height: 100%;
     height: 100%;
 }
 
 ol, ul {
   list-style: none;
-}
-
-#home-page {
-    height: 100%;
-    min-height: 800px;
-    width: 100%;
 }
 
 .container {
@@ -56,7 +51,6 @@ ol, ul {
     border-right-color: #588c7e;
     border-right-style: solid;
     border-right-width: thin;
-
 }
 
 h3 {
@@ -97,7 +91,7 @@ p {
 .nav-top {
     width: 100%;
     height: 61px;
-    background-color: black;
+    background-color: red;
     z-index: 1000;
     position: fixed;
 
@@ -150,35 +144,49 @@ p {
 }
 
 
+/*____________________________________________________________ */
+/*----------------- Slider --------------*/
+#home-page {
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+
+#home-page .s6 {
+    height: 100%;
+}
 
 
-
-
-
+/*____________________________________________________________ */
+/*----------------- FOrm --------------*/
+#home-page {
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
 
 
 
 /*____________________________________________________________
--------------------------------------------------------------- */
 /*----------------- CONTACTS --------------*/
 
 #contacts-page {
     background-color: white;
+    height: 30%;
 }
 
-#contacts-content {
-    color: #8c4646;
-}
+/*
 
 #small-container {
-    height: 100%;
+    height: 30%;
     width: 700px;
     left: 50%;
 }
+*/
 
 
 #talk-to-me {
-    top: 100px;
+    top: 30px;
     width: 100%;
     left: 12px;
     position: relative;
@@ -189,6 +197,7 @@ p {
 
 form {
     top: 120px;
+    width: 700px;
     height: 400px;
     position: relative;
     border: thin solid #8c4646;
@@ -207,4 +216,26 @@ form {
 
 #form-feedback {
     height: 250px;
+}
+
+
+/*____________________________________________________________*/
+/*---Footer ---*/
+#footer {
+    bottom: 0;
+    margin-bottom: 0;
+    z-index: 1000;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+
+    font-family: 'Homemade Apple', cursive;
+    font-size: .9rem;
+    color: black;
+    text-align: center;
+}
+
+#footer .s8, #footer .s2 {
+    height: 100%;
 }

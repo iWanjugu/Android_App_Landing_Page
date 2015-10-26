@@ -11,6 +11,8 @@
         <!--- css -->
         <link rel="stylesheet" href="main/css/global.css">
         <!--materialize -->
+        <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--		<link rel="stylesheet" type="text/css" href="materialize/css/materialize.css" />-->
         <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css" />
 
@@ -48,100 +50,82 @@
 
 <div class="container">
 
-    <div id="home-page" class="row">
-
     <!----- SLIDERS/ CONTENT ------>
-        <div class="row">
-            <div class="col s6">
-                <div id="one" class="fadein">
-                    <img src="main/assets/me1.jpg" class="center-c" alt="">
-                    <img src="main/assets/me3.jpg" class="center-c" alt="">
-                </div>
-
-
-
-
-
+    <div id="home-content" class="row center-c">
+        <div class="col s6 left">
+            <div id="photos" class="fadein">
+                <img src="main/assets/snapshots/Screenshot_2015-10-26-10-28-32.png" class="center-c" alt="">
+                <img src="main/assets/snapshots/Screenshot_2015-10-26-10-29-52.png" class="center-c" alt="">
             </div>
-             <div class="col s6"></div>
+
+        </div>
+         <div id="description" class="col s6 right"></div>
+
     </div>
-
-
     <!----- CONTACTS/ FORM ------>
 
-    <div id="contacts-page" class="row">
+    <div id="contacts-page" class="row"
 
-        <!-- content -->
-        <div id="small-container" class="center-h">
+        <!----- Form ----->
+        <div class="row">
+        <form class="col s12">
+
             <!--- title --->
             <div id="talk-to-me" class="row">
-                <div class="col s12">
-                    <h3>
-                        <span>t</span>alk to me
-                    </h3>
+                <h5>Talk To Me</h5>
+            </div>
+                <!-- first row --->
+            <div id="form-names" class="row">
+                <div class="col s3"></div>
+                <!--- first name --->
+                <div class="input-field col s3">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
                 </div>
-            </div>
 
-            <!----- Form ----->
-            <div class="row">
-            <form class="col s12">
+                <!--- last name --->
+                <div class="input-field col s3">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                </div>
+                <div class="col s3"></div>
+              </div>
 
-                    <!-- first row --->
-                <div id="form-names" class="row">
-                    <div class="col s3"></div>
-                    <!--- first name --->
-                    <div class="input-field col s3">
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">First Name</label>
-                    </div>
+                <!-- second row --->
+              <div id="form-email" class="row">
+                 <div class="input-field col s12">
+                   <input id="email" type="email" class="validate">
+                   <label for="email" data-error="wrong" data-success="right">Email...</label>
+                 </div>
+              </div>
 
-                    <!--- last name --->
-                    <div class="input-field col s3">
-                          <input id="last_name" type="text" class="validate">
-                          <label for="last_name">Last Name</label>
-                    </div>
-                    <div class="col s3"></div>
-                  </div>
+                <!-- third row --->
+              <div id="form-submit" class="row">
+                 <div class="input-field col s12 center-h">
+                     <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+                    </button>
+                </div>
+              </div>
+        </form>
+        </div>
+    </div> <!--- small container --->
+    </div> <!--contacts-content end --->
 
-                    <!-- second row --->
-                  <div id="form-email" class="row">
-                     <div class="input-field col s12">
-                       <input id="email" type="email" class="validate">
-                       <label for="email" data-error="wrong" data-success="right">Email...</label>
-                     </div>
-                  </div>
-
-                    <!-- third row --->
-                  <div id="form-feedback" class="row">
-                     <div class="input-field col s12">
-                        <textarea id="textarea1" class="materialize-textarea"></textarea>
-                        <label for="textarea1">Tell Me Something...</label>
-                        </div>
-                  </div>
-            </form>
-            </div>
-        </div> <!--- small container --->
-        </div> <!--contacts-content end --->
-
-    </div><!--contacts-page end --->
+</div><!--contacts-page end --->
 
 
 </div><!-- End Container -->
 
 
-
     <!----------------------------------->
     <!---- Footer----->
     <div id="footer" class="row">
-        <div class="row">
-            <div class="col s2 hide-on-small-only"></div>
-            <div class="col s8">
-                <p class="center-v">
-                    2015   |   &copy; tTopStrikr by Wanjugu
+            <div><p>
+                    2015   |   &copy; TopStrikr by Wanjugu
                 </p>
             </div>
-            <div class="col s2 hide-on-small-only"></div>
-        </div>
+
     </div><!--- End of Footer -->
 
 </div><!--- End All Content --->

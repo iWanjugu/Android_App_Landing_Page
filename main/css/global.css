@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Indie+Flower|Shadows+Into+Light|Josefin+Sans:400,600,600italic,700,400italic|Architects+Daughter|Kaushan+Script|Rock+Salt|Shadows+Into+Light+Two);
+
+/*
+
+font-family: 'Poiret One', cursive;
+
+font-family: 'Indie Flower', cursive;
+
+font-family: 'Shadows Into Light', cursive;
+
+font-family: 'Josefin Sans', sans-serif;
+
+font-family: 'Architects Daughter', cursive;
+
+font-family: 'Kaushan Script', cursive;
+
+font-family: 'Rock Salt', cursive;
+
+font-family: 'Shadows Into Light Two', cursive;
+
+/* =============================================================================
+ The Body
+============================================================================= */
+/**/
+
+html, body {
+    font-family: 'Poiret One', cursive;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+}
+
+.all_content {
+    width: 100%;
+    height: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+#home-page {
+    height: 100%;
+    min-height: 800px;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    margin: 0;
+    border-right-color: #588c7e;
+    border-right-style: solid;
+    border-right-width: thin;
+
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h3 span {
+    font-size: 1.9rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/**----- Aligning Divs ---------**/
+.center-h {
+    left: 50%;
+    transform: translate(-50%, 0%);
+     position: absolute;
+}
+
+.center-v {
+    top: 50%;
+    transform: translate(0%, -50%);
+     position: absolute;
+}
+
+.center-c {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+/*____________________________________________________________
+-------------------------------------------------------------- */
+/*------- NAV-BAR ----------*/
+.nav-top {
+    width: 100%;
+    height: 61px;
+    background-color: black;
+    z-index: 1000;
+    position: fixed;
+
+    -webkit-filter: opacity (0.2);
+    filter: opacity (0.2);
+}
+
+.nav-top a {
+    color: #fff;
+    font-size: .9rem;
+}
+
+/*--- logo - left ---*/
+
+#nav-logo, .s2 {
+    text-align: center;
+}
+
+#nav-logo a {
+   margin-top: 23px;
+}
+
+
+/*--- menu - center ---*/
+#nav-menu {
+    width: 100%;
+    height: 100%;
+}
+
+#nav-menu div {
+    background-color: black;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 23px;
+}
+
+#nav-menu #home { width: 45px; }
+
+#nav-menu #about { width: 60px }
+
+#nav-menu #portfolio { width: 90px; }
+
+#nav-menu #contact { width: 70px; }
+
+#nav-menu.active {
+    background-color: #588c7e;
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/*____________________________________________________________
+-------------------------------------------------------------- */
+/*----------------- CONTACTS --------------*/
+
+#contacts-page {
+    background-color: white;
+}
+
+#contacts-content {
+    color: #8c4646;
+}
+
+#small-container {
+    height: 100%;
+    width: 700px;
+    left: 50%;
+}
+
+
+#talk-to-me {
+    top: 100px;
+    width: 100%;
+    left: 12px;
+    position: relative;
+    text-align: center;
+    border: thin solid #8c4646;
+    color: black;
+}
+
+form {
+    top: 120px;
+    height: 400px;
+    position: relative;
+    border: thin solid #8c4646;
+    color: black;
+}
+
+#form-names, #form-email {
+    height: 70px;
+    padding-top: 50px;
+}
+
+.s3 {
+    height: 100%;
+
+}
+
+#form-feedback {
+    height: 250px;
+}

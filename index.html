@@ -13,15 +13,117 @@
         <!--materialize -->
 <!--		<link rel="stylesheet" type="text/css" href="materialize/css/materialize.css" />-->
         <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css" />
-        <!-- flipping card -->
-        <link rel="stylesheet" href="1-flipping-card-source/css/common.css">
-        <link rel="stylesheet" href="1-flipping-card-source/css/cards.css">
 
-      <!-- modernizr -->
-      <script src="1-flipping-card-source/js/common/modernizr.js"></script>
             <!---- SCRIPTS ---->
 
         <script src="main/js/jquery-2.1.4.js"></script>
         <script src="materialize/js/materialize.js"></script>
         <script src="materialize/js/materialize.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">
+            </script>
+
+    </head>
+
+<!----------------------------- BODY ----------------------------->
+
+<body>
+<!----------------------------------->
+<!---- NavBar----->
+<div class="all-content">
+    <div class="row nav-top valign-wrapper">
+        <div id="nav-logo" class="col s2 hide-on-small-only">
+           <a href="#" class="left">Logo</a>
+        </div>
+        <div id="nav-menu" class="col s8 center-align valign">
+            <div id="home"><a href="#home-page">TOP</a></div>
+            <div id="about"><a href="#about-page">ABOUT</a></div>
+            <div id="portfolio"><a href="#portfolio-page">PORTFOLIO</a></div>
+            <div id="contact"><a href="#contacts-page">CONTACT</a></div>
+        </div>
+        <div class="col s2 hide-on-small-only"></div>
+    </div>
+
+<!----------------------------------->
+<!-- Image Slider -->
+
+<div class="container">
+    <!---- Body Top----->
+        <div id="home-page" class="row">
+
+
+
+        </div>
+    <!---- Body Bottom----->
+        <div id="home-form" class="row">
+
+
+
+
+        </div>
+
+    <!-------------------------------------------->
+    <!----- CONTACTS ------>
+
+    <div id="contacts-page" class="all_content">
+
+        <!-- content -->
+        <div id="contacts-content" class="container">
+        <div id="small-container" class="center-h">
+            <!--- title --->
+            <div id="talk-to-me" class="row">
+                <div class="col s12">
+                    <h3>
+                        <span>t</span>alk to me
+                    </h3>
+                </div>
+            </div>
+
+            <!----- Form ----->
+            <div class="row">
+            <form class="col s12">
+
+                    <!-- first row --->
+                <div id="form-names" class="row">
+                    <div class="col s3"></div>
+                    <!--- first name --->
+                    <div class="input-field col s3">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+
+                    <!--- last name --->
+                    <div class="input-field col s3">
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name">Last Name</label>
+                    </div>
+                    <div class="col s3"></div>
+                  </div>
+
+                    <!-- second row --->
+                  <div id="form-email" class="row">
+                     <div class="input-field col s12">
+                       <input id="email" type="email" class="validate">
+                       <label for="email" data-error="wrong" data-success="right">Email...</label>
+                     </div>
+                  </div>
+
+                    <!-- third row --->
+                  <div id="form-feedback" class="row">
+                     <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Tell Me Something...</label>
+                        </div>
+                  </div>
+            </form>
+            </div>
+        </div> <!--- small container --->
+        </div> <!--contacts-content end --->
+
+    </div><!--contacts-page end --->
+
+
+</div><!-- End COntainer -->
+
+</div><!--- End All Content --->
+</body>
+</html>
